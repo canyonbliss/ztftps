@@ -1,0 +1,4 @@
+name: ztftps
+build:
+  cmake: .
+  kconfig: Kconfig

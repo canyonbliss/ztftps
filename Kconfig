@@ -1,0 +1,10 @@
+# Copyright (c) 2025 Canyon Bliss
+# SPDX-License-Identifier: Apache-2.0
+
+config LIB_ZTFTPS
+	bool "TFTP Server Module"
+	default n
+	depends on NET_SOCKETS
+	help
+	  enable if you want a TFTP server
+
